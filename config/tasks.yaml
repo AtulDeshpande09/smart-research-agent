@@ -1,0 +1,8 @@
+research_task:
+  description: >
+    Conduct an exhaustive search on the web regarding the topic: '{topic}'. 
+    Scrape key websites to verify data accuracy. Identify 3 critical insights, 
+    filter out marketing hype, and compile a comprehensive raw notes document.
+  expected_output: >
+    A detailed markdown draft consisting of verified bullet points, data statistics, and raw source URLs.
+  agent: researcher
