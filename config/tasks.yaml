@@ -6,3 +6,12 @@ research_task:
   expected_output: >
     A detailed markdown draft consisting of verified bullet points, data statistics, and raw source URLs.
   agent: researcher
+
+writing_task:
+  description: >
+    Review the raw research notes provided on '{topic}'. Format it into a clean, professional, 
+    highly engaging corporate report. Ensure there is a strong Executive Summary, a core findings 
+    table or breakdown, and a clean 'References' section at the bottom.
+  expected_output: >
+    A polished, publish-ready markdown report document.
+  agent: writer
