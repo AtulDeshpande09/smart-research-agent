@@ -22,7 +22,7 @@ def run_pipeline():
     user_topic = input("What topic do you want investigated today? ")
     
     # 3. Setup common language model config
-    llm = LLM( model="ollama/phi4-mini", base_url="http://localhost:11434")
+    llm = LLM( model="ollama/llama3.1", base_url="http://localhost:11434")
     
     # 4. Initialize Tools
     search = SerperDevTool()
